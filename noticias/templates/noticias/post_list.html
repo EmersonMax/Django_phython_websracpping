@@ -1,0 +1,24 @@
+{% extends 'noticias/base.html' %}
+
+{% block content %}
+    {% for post in posts %}
+<<<<<<< HEAD
+        
+            <div id="box" class="card-body border text-dark rounded noticias" style="width: 18rem; border:none;" > 
+                <h8 class="card-title noticias "><i class="fa fa-newspaper-o" style="font-size:24px"></i>{{ post.title }} </h8>
+                <h8 class="card-title noticias "><cite><a class="noticias" href={{ post.description}}>Fonte: tec<b>mundo</b></a></cite> </h8>
+            </div>
+                          
+   
+=======
+        <div class="row" style="border:none;">
+            
+                    <div class="card-body border"  >
+                        <h3 class="row">{{ post.title }} </h3>
+    </div>                         
+     </div>       
+       
+>>>>>>> 9d9c0fb7eed11c6957b6b632db85ce06f5fde866
+    {% endfor %}
+    
+{% endblock %}

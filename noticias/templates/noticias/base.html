@@ -1,0 +1,55 @@
+{% load static %}
+<html>
+    <head>
+        <title>Django Python Scrapy  Noticias</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<<<<<<< HEAD
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{% static 'css/noticias.css' %}">
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.quicksearch/2.3.1/jquery.quicksearch.js"></script>
+=======
+        
+        <link rel="stylesheet" href="{% static 'css/noticias.css' %}">
+      
+>>>>>>> 9d9c0fb7eed11c6957b6b632db85ce06f5fde866
+    </head>
+    <body>
+        <div class="page-header">
+            <h1><a href="/">Django Python Scrapy  Noticias</a></h1>
+
+        </div>
+        <div class="right">
+<<<<<<< HEAD
+        <i class="fa fa-search" style="font-size:24px"></i><input type="text" id="txt_consulta"/>
+               
+
+=======
+        <input type="text" value="Pesquisar" onfocus="In(this, 'Pesquisar');" onblur="Out(this, 'Pesquisar');" />
+                <script type="text/javascript">function In(Objeto, Msg){    if(Objeto.value == Msg) {       Objeto.value = "";  }}function Out(Objeto, Msg){    if(Objeto.value == "")  {       Objeto.value = Msg; }}</script>
+>>>>>>> 9d9c0fb7eed11c6957b6b632db85ce06f5fde866
+        </div>
+        <div class="content container">
+            <div class="row">
+                
+                {% block content %}
+                {% endblock %}
+               
+            </div>
+        </div>
+    </body>
+<<<<<<< HEAD
+    <script>
+                    $('input#txt_consulta').quicksearch('h8');
+                </script>
+
+</html>
+<div class="page-footer">
+            <a class="fa fa-git-square" style="font-size: 36px;" href="https://github.com/EmersonMax"></a> <a class="fa fa-facebook-square" style="font-size:36px;" href="https://www.facebook.com/emersonmax.silva"></a><a  class="fa fa-linkedin-square" style="font-size:36px" href="https://www.linkedin.com/in/emerson-max-42558569/"></a>
+             <h3><a href="/">© 2019 Emerson Max </a></h3>
+</div>
+=======
+</html>
+>>>>>>> 9d9c0fb7eed11c6957b6b632db85ce06f5fde866
